@@ -14,6 +14,7 @@
 		6B72E6F1202216E100BECB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B72E6F0202216E100BECB78 /* Assets.xcassets */; };
 		6B72E6F4202216E100BECB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B72E6F2202216E100BECB78 /* LaunchScreen.storyboard */; };
 		6B72E6F7202216E100BECB78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B72E6F6202216E100BECB78 /* main.m */; };
+		6BA8ADE62022184F00855607 /* MenuOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA8ADE42022184E00855607 /* MenuOverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		6B72E6F3202216E100BECB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B72E6F5202216E100BECB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B72E6F6202216E100BECB78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA8ADE42022184E00855607 /* MenuOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuOverlayView.m; sourceTree = "<group>"; };
+		6BA8ADE52022184F00855607 /* MenuOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuOverlayView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				6B72E6E8202216E100BECB78 /* art.scnassets */,
 				6B72E6EA202216E100BECB78 /* GameViewController.h */,
 				6B72E6EB202216E100BECB78 /* GameViewController.m */,
+				6BA8ADE52022184F00855607 /* MenuOverlayView.h */,
+				6BA8ADE42022184E00855607 /* MenuOverlayView.m */,
 				6B72E6ED202216E100BECB78 /* Main.storyboard */,
 				6B72E6F0202216E100BECB78 /* Assets.xcassets */,
 				6B72E6F2202216E100BECB78 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				6B72E6EC202216E100BECB78 /* GameViewController.m in Sources */,
 				6B72E6F7202216E100BECB78 /* main.m in Sources */,
+				6BA8ADE62022184F00855607 /* MenuOverlayView.m in Sources */,
 				6B72E6E7202216E100BECB78 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
